@@ -1,10 +1,10 @@
-import Hero from "@/components/hero"
-import About from "@/components/about"
-import Technologies from "@/components/technologies"
-import Services from "@/components/services"
-import Projects from "@/components/projects"
-import Contact from "@/components/contact"
-import Footer from "@/components/footer"
+import Hero from "@/components/hero";
+import About from "@/components/about";
+import Technologies from "@/components/technologies";
+import Services from "@/components/services";
+import Projects from "@/components/projects";
+import Contact from "@/components/contact";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -17,5 +17,5 @@ export default function Home() {
       <Contact />
       <Footer />
     </main>
-  )
+  );
 }

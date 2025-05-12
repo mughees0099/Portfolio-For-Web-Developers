@@ -58,18 +58,16 @@ const projects = [
     tags: ["React", "Tailwind CSS", "Contentful"],
     link: "https://corvit.edu.pk/",
   },
-
   {
     id: 5,
-    title: "Shopify Store",
+    title: "Chalet Cafe (In Progress)",
     description:
-      " This project is a modern e-commerce website built using Next.js and powered by Shopify Headless UI. It combines the flexibility of Next.js for a seamless user experience with the robust backend capabilities of Shopify for efficient product management and transactions.",
+      "Chalet Cafe is a modern cafe website that showcases the menu, ambiance, and services offered. Built with Next.js and Tailwind CSS, it provides a seamless user experience with a focus on aesthetics.",
     image:
-      "https://res.cloudinary.com/dwn3n5zdb/image/upload/fl_preserve_transparency/v1737397470/Screenshot_2025-01-20_232340_kqv6ei.jpg?_s=public-apps",
-    tags: ["Next.js", "Express", "MongoDB", "Shopify"],
-    link: "https://nextjs-commerce-six-chi.vercel.app/",
+      "https://res.cloudinary.com/dwn3n5zdb/image/upload/v1747043483/Screenshot_2025-05-12_145006_pdcdpn.png",
+    tags: ["Next.js", "Tailwind CSS", "Contentful"],
+    link: "https://chalet-cafe.vercel.app/",
   },
-
   {
     id: 6,
     title: "Naqsh Agency (In Progress)",

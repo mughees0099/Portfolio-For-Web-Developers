@@ -35,6 +35,16 @@ const technologies = [
     color: "#fff",
   },
   {
+    name: "Next JS",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+    color: "#fff",
+  },
+  {
+    name: "Typescript",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+    color: "#007ACC",
+  },
+  {
     name: "Express",
     icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg",
     color: "#fff",
@@ -60,14 +70,41 @@ const technologies = [
     color: "#fff",
   },
   {
+    name: "Vercel",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg",
+    color: "#fff",
+  },
+
+  {
+    name: "Firebase",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
+    color: "#FFCA28",
+  },
+  {
+    name: "Framer Motion",
+    icon: "https://simpleicons.org/icons/framer.svg",
+    color: "#fff",
+  },
+
+  {
     name: "Sanity",
-    icon: "https://avatars.githubusercontent.com/u/17177659?s=200&v=4",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sanity/sanity-original.svg",
     color: "#F03E2F",
   },
   {
     name: "Cloudinary",
     icon: "https://www.svgrepo.com/show/353566/cloudinary.svg",
     color: "#3448C5",
+  },
+  {
+    name: "Contentful",
+    icon: "https://www.svgrepo.com/show/353600/contentful.svg",
+    color: "#fff",
+  },
+  {
+    name: "Github",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+    color: "#fff",
   },
   {
     name: "Git",
