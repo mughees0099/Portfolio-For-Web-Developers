@@ -3,9 +3,36 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { link } from "fs";
 
 const projects = [
+  {
+    id: 8,
+    title: "Peshawar Stays",
+    description:
+      "Peshawar Stays is a user-friendly hotel and property booking platform developed for travelers and locals to easily explore, book, and manage accommodations in Peshawar. Hosts can list their properties, while admins manage listings and users via a dedicated dashboard.",
+    image:
+      "https://res.cloudinary.com/dwn3n5zdb/image/upload/v1751025580/Screenshot_2025-06-27_165819_vzz5vt.png",
+    tags: [
+      "Next.js (TypeScript)",
+      "Tailwind CSS",
+      "Cloudinary",
+      "JWT",
+      "MongoDB",
+      "Vercel",
+      "API routes (Next.js)",
+    ],
+    link: "https://peshawar-stays.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "Chalet Cafe (In Progress)",
+    description:
+      "Chalet Cafe is a modern cafe website that showcases the menu, ambiance, and services offered. Built with Next.js and Tailwind CSS, it provides a seamless user experience with a focus on aesthetics.",
+    image:
+      "https://res.cloudinary.com/dwn3n5zdb/image/upload/v1751027393/Screenshot_2025-06-27_172906_l6jmfj.png",
+    tags: ["Next.js", "Tailwind CSS", "Contentful"],
+    link: "https://chalet-cafe.vercel.app/",
+  },
   {
     id: 1,
     title: "IPSEC",
@@ -15,6 +42,23 @@ const projects = [
       "https://res.cloudinary.com/dwn3n5zdb/image/upload/v1744390944/image_original_t94z8c.png",
     tags: ["React", "Redux", "Node.js", "MongoDB"],
     link: "https://ipsec.com.pk/",
+  },
+  {
+    id: 6,
+    title: "Naqsh Agency ",
+    description:
+      "This project is a sleek and professional service-based website built for a premium branding and web solutions provider. It showcases services like brand identity, website development, and digital strategy, with a modern UI that reflects the high-end quality of the brand’s offerings.",
+    image:
+      "https://res.cloudinary.com/dwn3n5zdb/image/upload/v1751025580/Screenshot_2025-06-27_165830_dy4eux.png",
+    tags: [
+      "Next.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Express",
+      "Firebase",
+    ],
+    link: "https://www.naqsh.agency/",
   },
 
   {
@@ -58,33 +102,7 @@ const projects = [
     tags: ["React", "Tailwind CSS", "Contentful"],
     link: "https://corvit.edu.pk/",
   },
-  {
-    id: 5,
-    title: "Chalet Cafe (In Progress)",
-    description:
-      "Chalet Cafe is a modern cafe website that showcases the menu, ambiance, and services offered. Built with Next.js and Tailwind CSS, it provides a seamless user experience with a focus on aesthetics.",
-    image:
-      "https://res.cloudinary.com/dwn3n5zdb/image/upload/v1747043483/Screenshot_2025-05-12_145006_pdcdpn.png",
-    tags: ["Next.js", "Tailwind CSS", "Contentful"],
-    link: "https://chalet-cafe.vercel.app/",
-  },
-  {
-    id: 6,
-    title: "Naqsh Agency (In Progress)",
-    description:
-      "This project is a sleek and professional service-based website built for a premium branding and web solutions provider. It showcases services like brand identity, website development, and digital strategy, with a modern UI that reflects the high-end quality of the brand’s offerings.",
-    image:
-      "https://res.cloudinary.com/dwn3n5zdb/image/upload/v1744562726/Screenshot_2025-04-13_214330_wvi586.png",
-    tags: [
-      "Next.js",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "Express",
-      "Firebase",
-    ],
-    link: "https://nagash-agency.vercel.app/",
-  },
+
   {
     id: 7,
     title: "ASTORAT AL NAWRAS (In Progress)",
@@ -138,7 +156,7 @@ export default function Projects() {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               viewport={{ once: true }}
               whileHover={{ y: -10 }}
-              className="group relative overflow-hidden rounded-xl bg-gray-800 shadow-xl transition-all duration-300"
+              className="group relative overflow-hidden rounded-xl bg-gray-800 shadow-xl transition-all duration-300 h-full"
             >
               <div className="relative h-48 overflow-hidden group-hover:scale-105">
                 <img
@@ -149,7 +167,7 @@ export default function Projects() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-black/20 opacity-0 transition-opacity duration-300 group-hover:opacity-100 "></div>
               </div>
 
-              <div className="p-6">
+              <div className="p-6 flex flex-col justify-between h-96">
                 <h3 className="mb-2 text-xl font-bold text-white">
                   {project.title}
                 </h3>
