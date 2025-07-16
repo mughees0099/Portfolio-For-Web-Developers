@@ -25,7 +25,7 @@ const projects = [
   },
   {
     id: 5,
-    title: "Chalet Cafe (In Progress)",
+    title: "Chalet Cafe",
     description:
       "Chalet Cafe is a modern cafe website that showcases the menu, ambiance, and services offered. Built with Next.js and Tailwind CSS, it provides a seamless user experience with a focus on aesthetics.",
     image:
@@ -45,7 +45,7 @@ const projects = [
   },
   {
     id: 6,
-    title: "Naqsh Agency ",
+    title: "Naqsh Agency",
     description:
       "This project is a sleek and professional service-based website built for a premium branding and web solutions provider. It showcases services like brand identity, website development, and digital strategy, with a modern UI that reflects the high-end quality of the brand’s offerings.",
     image:
@@ -84,7 +84,7 @@ const projects = [
   },
   {
     id: 3,
-    title: "Dine Market  ",
+    title: "Dine Market ",
     description:
       "A full-featured e-commerce platform built with the MERN stack, featuring product management, cart functionality, and payment processing.",
     image:
