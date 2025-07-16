@@ -105,7 +105,6 @@ export default function Hero() {
           </h1>
           <p className="mt-3 text-base text-white sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
             I am a Front-End / Back-End / Full-Stack Developer.
-            <br />I am currently working as a MERN Stack Developer.
           </p>
           <div className="flex md:justify-start">
             {contactLinks.map((el, index) => (
@@ -142,9 +141,21 @@ export default function Hero() {
               <Button
                 size="lg"
                 variant="outline"
-                className=" text-white hover:bg-blue-500/20"
+                className=" text-white hover:bg-black/70"
               >
                 Contact Me
+              </Button>
+            </a>
+            <a
+              href="https://drive.google.com/uc?export=download&id=1UWd3xDir08REhsmF4vnRFNaMt55PmMKK"
+              rel="noopener noreferrer"
+            >
+              <Button
+                size="lg"
+                variant="outline"
+                className="text-white hover:bg-black/70"
+              >
+                Resume
               </Button>
             </a>
           </div>
