@@ -6,12 +6,20 @@ import { Button } from "@/components/ui/button";
 
 const projects = [
   {
+    id: 9,
+    title: "Nanosmoothies",
+    description:
+      "A smoothie e-commerce website optimized for speed and performance. Worked on enhancing page load times, improving user experience, and ensuring a seamless shopping journey for customers looking to order fresh smoothies online.",
+    image: "/nano-smothies.png",
+    tags: ["Next.js", "MongoDb", "Tailwind", "Light house"],
+    link: "https://nanosmoothies.com/",
+  },
+  {
     id: 8,
     title: "Peshawar Stays",
     description:
       "Peshawar Stays is a user-friendly hotel and property booking platform developed for travelers and locals to easily explore, book, and manage accommodations in Peshawar. Hosts can list their properties, while admins manage listings and users via a dedicated dashboard.",
-    image:
-      "https://res.cloudinary.com/dwn3n5zdb/image/upload/v1751025580/Screenshot_2025-06-27_165819_vzz5vt.png",
+    image: "/peshawar-stays.png",
     tags: [
       "Next.js (TypeScript)",
       "Tailwind CSS",
@@ -28,8 +36,7 @@ const projects = [
     title: "Chalet Cafe",
     description:
       "Chalet Cafe is a modern cafe website that showcases the menu, ambiance, and services offered. Built with Next.js and Tailwind CSS, it provides a seamless user experience with a focus on aesthetics.",
-    image:
-      "https://res.cloudinary.com/dwn3n5zdb/image/upload/v1751027393/Screenshot_2025-06-27_172906_l6jmfj.png",
+    image: "/chalet-cafe.png",
     tags: ["Next.js", "Tailwind CSS", "Contentful"],
     link: "https://chalet-cafe.vercel.app/",
   },
@@ -38,8 +45,7 @@ const projects = [
     title: "IPSEC",
     description:
       "I designed and developed the official website for IPSEC, a premier IT training institute providing government-funded courses to students. Built using the MERN stack, the platform offers a seamless user experience with course listings, student enrollment management, and an intuitive dashboard.",
-    image:
-      "https://res.cloudinary.com/dwn3n5zdb/image/upload/v1744390944/image_original_t94z8c.png",
+    image: "/ipsec.png",
     tags: ["React", "Redux", "Node.js", "MongoDB"],
     link: "https://ipsec.com.pk/",
   },
@@ -48,8 +54,7 @@ const projects = [
     title: "Naqsh Agency",
     description:
       "This project is a sleek and professional service-based website built for a premium branding and web solutions provider. It showcases services like brand identity, website development, and digital strategy, with a modern UI that reflects the high-end quality of the brand’s offerings.",
-    image:
-      "https://res.cloudinary.com/dwn3n5zdb/image/upload/v1751025580/Screenshot_2025-06-27_165830_dy4eux.png",
+    image: "/naqsh-agency.png",
     tags: [
       "Next.js",
       "Node.js",
@@ -60,7 +65,32 @@ const projects = [
     ],
     link: "https://www.naqsh.agency/",
   },
+  {
+    id: 4,
+    title: "Corvit",
+    description:
+      "Corvit is a premier educational institute specializing in IT courses, offering comprehensive training programs to equip students with industry-relevant skills",
+    image: "/corvit.png",
+    tags: ["React", "Tailwind CSS", "Contentful"],
+    link: "https://corvit.edu.pk/",
+  },
 
+  {
+    id: 7,
+    title: "ASTORAT AL NAWRAS (In Progress)",
+    description:
+      "This project is a modern auto spare parts e-commerce website building using Next.js. It provides a seamless user experience for browsing, searching, and purchasing high-quality car spare parts.",
+    image: "/astorat.png",
+    tags: [
+      "Next.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Express",
+      "Firebase",
+    ],
+    link: "https://auto-parts-ecommerce.vercel.app/",
+  },
   {
     id: 2,
     title: "Pseb",
@@ -91,34 +121,6 @@ const projects = [
       "https://res.cloudinary.com/dwn3n5zdb/image/upload/v1731321124/Screenshot_2024-11-11_153146_z5cx9a.png",
     tags: ["React", "Node.js", "MongoDB", "Express"],
     link: "https://dine-market.netlify.app/",
-  },
-  {
-    id: 4,
-    title: "Corvit",
-    description:
-      "Corvit is a premier educational institute specializing in IT courses, offering comprehensive training programs to equip students with industry-relevant skills",
-    image:
-      "https://res.cloudinary.com/dwn3n5zdb/image/upload/v1731311698/Screenshot_2024-11-11_124749_osyp8z.png",
-    tags: ["React", "Tailwind CSS", "Contentful"],
-    link: "https://corvit.edu.pk/",
-  },
-
-  {
-    id: 7,
-    title: "ASTORAT AL NAWRAS (In Progress)",
-    description:
-      "This project is a modern auto spare parts e-commerce website building using Next.js. It provides a seamless user experience for browsing, searching, and purchasing high-quality car spare parts.",
-    image:
-      "https://res.cloudinary.com/dwn3n5zdb/image/upload/v1744561982/Screenshot_2025-04-13_213234_hzrdml.png",
-    tags: [
-      "Next.js",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "Express",
-      "Firebase",
-    ],
-    link: "https://auto-parts-ecommerce.vercel.app/",
   },
 ];
 

@@ -147,7 +147,7 @@ export default function Hero() {
               </Button>
             </a>
             <a
-              href="https://drive.google.com/uc?export=download&id=1UWd3xDir08REhsmF4vnRFNaMt55PmMKK"
+              href="https://drive.google.com/uc?export=download&id=1yxgTyPZkd1pWGMcAOjeanyKc5r5dQb5Q"
               rel="noopener noreferrer"
             >
               <Button
